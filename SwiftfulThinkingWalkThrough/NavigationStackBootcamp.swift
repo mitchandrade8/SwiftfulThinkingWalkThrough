@@ -11,10 +11,18 @@ struct NavigationStackBootcamp: View {
     
     let fruits = ["Apple", "Orange", "Banana"]
     
+    @State private var stackPath: [String] = []
+    
     var body: some View {
-        NavigationStack {
+        NavigationStack(path: $stackPath) {
             ScrollView {
                 VStack(spacing: 40) {
+                    
+                    Button("Super segue!") {
+                        stackPath.append(contentsOf: [
+                        "Coconut", "Watermelon", "Mango"
+                        ])
+                    }
                     
                     ForEach(fruits, id: \.self) { fruit in
                         NavigationLink(value: fruit) {
