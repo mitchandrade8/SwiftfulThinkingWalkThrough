@@ -11,6 +11,7 @@
 		742687CD2A306D78000C5830 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742687CC2A306D78000C5830 /* ContentView.swift */; };
 		742687CF2A306D7A000C5830 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 742687CE2A306D7A000C5830 /* Assets.xcassets */; };
 		742687D22A306D7A000C5830 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 742687D12A306D7A000C5830 /* Preview Assets.xcassets */; };
+		742687D92A306E7A000C5830 /* NavigationStackBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742687D82A306E7A000C5830 /* NavigationStackBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		742687CC2A306D78000C5830 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		742687CE2A306D7A000C5830 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		742687D12A306D7A000C5830 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		742687D82A306E7A000C5830 /* NavigationStackBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				742687CA2A306D78000C5830 /* SwiftfulThinkingWalkThroughApp.swift */,
 				742687CC2A306D78000C5830 /* ContentView.swift */,
+				742687D82A306E7A000C5830 /* NavigationStackBootcamp.swift */,
 				742687CE2A306D7A000C5830 /* Assets.xcassets */,
 				742687D02A306D7A000C5830 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				742687D92A306E7A000C5830 /* NavigationStackBootcamp.swift in Sources */,
 				742687CD2A306D78000C5830 /* ContentView.swift in Sources */,
 				742687CB2A306D78000C5830 /* SwiftfulThinkingWalkThroughApp.swift in Sources */,
 			);
